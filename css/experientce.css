@@ -15,7 +15,24 @@
 
 .experience-1-head {
     color: white;
+}
+
+.experience-1-info {
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    margin-top: 5px;
     margin-bottom: 1rem;
+}
+
+.experience-1-type {
+    color: rgb(111, 162, 145);
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.expericence-info-space {
+    margin: 0 1rem;
 }
 
 .experience-1-body {

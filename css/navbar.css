@@ -28,7 +28,7 @@ a:hover {
 
 section {
     width: 100%;
-    min-width: 400px;
+    min-width: 450px;
     padding: 60px 60px 0px 60px;
     display: flex;
     justify-content: space-evenly;
