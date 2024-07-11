@@ -1,9 +1,25 @@
-.experience {
-    width: 100%;
-    min-width: max-content;
-    /* padding: 60px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    box-sizing: border-box; */
+.experience-body {
+    border: 3px solid red;
+    padding: 1rem 2rem;
+}
+
+.experience-title {
+    margin: 0 auto;
+    color: rgb(149, 149, 149);
+    padding: 1rem;
+    border-width: 0px 3px 0px 3px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 1.5rem;
+}
+
+.experience-1-head {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.experience-1-body {
+    color: gray;
+    text-align: justify;
+    text-justify: inter-word;
 }
