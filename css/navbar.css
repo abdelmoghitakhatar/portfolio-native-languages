@@ -18,12 +18,12 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(148, 148, 148);
     font-size: 1rem;
 }
 
 a:hover {
-    color: rgb(92, 211, 179);
+    color: rgb(245, 245, 245);
 }
 
 section {
@@ -41,7 +41,7 @@ header {
     top: 0;
     width: 100%;
     padding: 0 3rem;
-    background-color: rgb(0, 51, 77);
+    background-color: rgb(21, 21, 21);
     z-index: 100;
 }
 
@@ -55,7 +55,7 @@ header {
 }
 
 .navbar .logo {
-    color: cadetblue;
+    color: rgb(158, 158, 158);
     font-size: 1.5rem;
     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
@@ -64,7 +64,7 @@ header {
 }
 
 .navbar .logo:hover {
-    color: rgb(160, 87, 87);
+    color: rgb(209, 209, 209);
 }
 
 .navbar .links {
@@ -88,7 +88,8 @@ header {
     position: absolute;
     right: 0;
     height: 100vh;
-    background-color: rgb(0, 100, 92);
+    background-color: rgba(255, 255, 255, 0.052);
+    backdrop-filter: blur(20px);
     font-weight: bold;
     overflow: hidden;
     transition: width 0.8s ease;

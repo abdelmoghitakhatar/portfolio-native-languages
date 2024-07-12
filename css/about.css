@@ -48,10 +48,33 @@
 }
 
 /* ------ responsive ------ */
+@media (max-width: 1300px) {
+
+    .about .about-content h1 {
+        padding: 0;
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }
+    
+}
 @media (max-width: 1000px) {
 
     .about {
         flex-direction: column-reverse;
+    }
+
+    .about .about-content h1 {
+        padding: 0;
+        letter-spacing: 0.2rem;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .about .about-content h1 {
+        font-size: 1.2rem;
+        letter-spacing: 0.15rem;
     }
     
 }

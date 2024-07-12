@@ -1,6 +1,12 @@
+.experience-content {
+    padding-top: 30px;
+}
+
 .experience-body {
-    border: 3px solid red;
+    border: 3px red;    
+    border-style: solid solid dashed solid;
     padding: 1rem 2rem;
+    border-radius: 1rem 1rem 0px 0px;
 }
 
 .experience-title {
