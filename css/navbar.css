@@ -95,6 +95,19 @@ header {
     transition: width 0.8s ease;
 }
 
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(63, 63, 63);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(21, 21, 21);
+}
+
 
 /* ------------------------- */
 @media (max-width: 1260px) {

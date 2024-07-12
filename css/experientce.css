@@ -3,9 +3,9 @@
 }
 
 .experience-body {
-    border: 3px red;    
+    border: 3px red;
     border-style: solid solid dashed solid;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     border-radius: 1rem 1rem 0px 0px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .experience-1-head {
-    color: white;
+    color: rgb(195, 195, 195);
 }
 
 .experience-1-info {
@@ -45,4 +45,23 @@
     color: gray;
     text-align: justify;
     text-justify: inter-word;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.experience-1-body li {
+    margin-top: 5px;
+}
+
+.experience-1-body li span {
+    color: rgb(201, 201, 201);
+    font-weight: 200;
+}
+
+@media (max-width: 700) {
+
+    .experience-body {
+        padding: 1rem 2rem;
+    }
 }
